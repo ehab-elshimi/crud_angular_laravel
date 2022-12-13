@@ -1,0 +1,89 @@
+{
+	"info": {
+		"_postman_id": "1ac51ec2-cad9-43cc-92ca-d1c3b64881a9",
+		"name": "full_Stack_crud",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "20065582"
+	},
+	"item": [
+		{
+			"name": "all persons",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": [
+				{
+					"name": "all persons",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://127.0.0.1:8000/api/person/",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"person",
+								""
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Host",
+							"value": "127.0.0.1:8000"
+						},
+						{
+							"key": "Date",
+							"value": "Mon, 12 Dec 2022 23:42:16 GMT"
+						},
+						{
+							"key": "Date",
+							"value": "Mon, 12 Dec 2022 23:42:16 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "close"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "PHP/8.1.9"
+						},
+						{
+							"key": "Cache-Control",
+							"value": "no-cache, private"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "X-RateLimit-Limit",
+							"value": "60"
+						},
+						{
+							"key": "X-RateLimit-Remaining",
+							"value": "59"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						}
+					],
+					"cookie": [],
+					"body": "[\n    {\n        \"id\": 1,\n        \"name\": \"ali\",\n        \"email\": \"ali@gmail.com\",\n        \"phone\": 1099644971,\n        \"created_at\": \"2022-12-13T01:26:43.000000Z\",\n        \"updated_at\": \"2022-12-13T01:26:43.000000Z\"\n    },\n    {\n        \"id\": 2,\n        \"name\": \"sayed\",\n        \"email\": \"sayed@gmail.com\",\n        \"phone\": 113564879,\n        \"created_at\": \"2022-12-12T23:40:33.000000Z\",\n        \"updated_at\": \"2022-12-12T23:40:33.000000Z\"\n    }\n]"
+				}
+			]
+		}
+	]
+}
